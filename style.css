@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin-right: 1rem;
+  padding: 10vh;
+}
+
+.content{
+  max-width:60vw;
+
+}
+
+.languageHeading {
+  max-height: 20vh;
+  max-width: 60vw;
+  position: relative;
+}
+
+.row1,
+.row2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 99vw;
+  overflow: hidden;
+}
+
+.bio,
+.readings,
+.presentation,
+.project {
+  color: white;
+  justify-content: center;
+  display: flex;
+  padding: 1%;;
+  max-width: 30vw;
+  
+}
+
+h2 {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.readingsLink {
+  text-decoration: none;
+}
+
+.aboutMeGIF, .readingsGIF, .exercisesGIF, .estheticaGIF{
+  position: relative;
+  width: 100%;
+}
+
+.bio, .presentation{
+  padding-left: 0;
+}
+
+.readings, .projects{
+  padding-right: 0;
+}
