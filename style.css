@@ -33,7 +33,7 @@ header {
 
 .bio,
 .readings,
-.presentation,
+#exercises,
 .project {
   color: white;
   justify-content: center;
@@ -57,10 +57,32 @@ h2 {
   width: 100%;
 }
 
-.bio, .presentation{
+.bio, #exercises{
   padding-left: 0;
 }
 
 .readings, .projects{
   padding-right: 0;
+}
+
+#exerciseLinks{
+  opacity: 0;
+  position: absolute;
+  left: 28vw;
+  bottom: 5vh;
+  text-decoration: none;
+  text-align: center;
+}*
+
+.one, .two, .three {
+  display: flex;
+  gap: 4vw;
+}
+
+#exerciseLinks:hover{
+  opacity: 1;
+}
+
+a{
+  text-decoration: none;
 }

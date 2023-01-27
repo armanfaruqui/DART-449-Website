@@ -14,7 +14,7 @@
 }
 
 .heading{
-  max-width: 60vw0;
+  max-width: 60vw;
 }
 
 .content {
@@ -37,7 +37,7 @@ header {
 }
 
 .crowdVid {
-  margin-top: 4rem;
+  margin-top: 3rem;
   flex-direction: row;
 }
 
